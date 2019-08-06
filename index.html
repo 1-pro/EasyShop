@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Document</title>
+
+    <style>
+        #main-nav .nav-link{
+            color: white;
+        }
+
+        #homeSlider .carousel-inner{
+            max-height: 500px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger" id="main-nav">
+        <div class="container">
+            <img src="images/cart2.png" width="3%">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active ">
+                        <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Category</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+                        <img src="images/search.png" width="3%">
+        </div>
+    </nav>
+    <!-- end navbar -->
+            
+    
+    
+    <div id="homeSlider" class="carousel slide" data-ride="carousel">
+    
+        <!-- indicators start -->
+        <ol class="carousel-indicators">
+            <li data-target="#homeSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#homeSlider" data-slide-to="1"></li>
+            <li data-target="#homeSlider" data-slide-to="2"></li>
+        </ol>
+        <!-- indicators end -->
+
+        <div class="carousel-inner">
+            <!-- slide one -->
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/s1.jpg" alt="First slide" height="500">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>We sell what you want!</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, numquam corporis. Sapiente dicta ullam repellendus atque reprehenderit at voluptatum, quisquam iusto beatae doloribus. Natus quasi provident pariatur qui reiciendis dolorem?</p>
+                    <a href="#" class="btn btn-lg btn-outline-danger bg-white text-danger ">Visit shop</a>
+                </div>
+            </div>
+            <!-- slide one end-->
+            
+            <!-- slide two-->
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/s2.jpg" alt="Second slide" height="500">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>We have what you need!</h5>
+                    <p>lets make your dream a reality</p>
+                    <a href="details.html" class="btn btn-lg btn-outline-danger bg-white text-danger">Checkout some shops</a>
+                </div>
+            </div>
+            <!-- slide two end-->
+
+            <!-- slide three-->
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/sx.jpg" alt="Third slide" height="500">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>We sell what you want!</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, numquam corporis. Sapiente dicta ullam repellendus atque reprehenderit at voluptatum, quisquam iusto beatae doloribus. Natus quasi provident pariatur qui reiciendis dolorem?</p>
+                    <a href="#" class="btn btn-lg btn-outline-danger bg-white text-danger">Contact us</a>
+                </div>
+            </div>
+            <!-- slide three end-->
+
+        </div>
+      
+    </div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
